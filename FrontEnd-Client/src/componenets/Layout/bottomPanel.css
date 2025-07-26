@@ -1,0 +1,64 @@
+.bottom-panel {
+  background-color: #1e1e2f;
+  color: white;
+  padding: 16px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.test-case-selector {
+  margin-bottom: 12px;
+}
+
+.test-case-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.test-case-btn {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.test-case-btn.active {
+  background-color: #555;
+}
+
+.test-case-btn.pass {
+  background-color: #28a745;
+}
+
+.test-case-btn.fail {
+  background-color: #dc3545;
+}
+
+.test-case-details .detail-row {
+  margin-bottom: 12px;
+}
+
+.input-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.input-item {
+  background: #2c2c3c;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.error-display pre {
+  background: #3a1f1f;
+  color: #ff6b6b;
+  padding: 8px;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  margin-top: 6px;
+}
